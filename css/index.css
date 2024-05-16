@@ -185,3 +185,110 @@ header {
 		line-height: 3rem;
 	}
 }
+#about {
+    text-align: center;
+}
+
+#about-description {
+    display: inline-block;
+    text-align: left;
+}
+#projects {
+    text-align: center;
+}
+
+#projects-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-tile {
+    margin: 20px;
+    /* Add any other styles you need for your project tiles */
+}
+#contact {
+    text-align: center;
+}
+
+#contact-form {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+#contact-data {
+    margin-top: 20px; /* Adjust as needed */
+}
+
+#contact-data ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-data ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed */
+}
+#contact-form { 
+	width: 500px; 
+	margin: 50px auto; 
+  } 
+   
+  .form-group { 
+	margin-bottom: 25px; 
+  } 
+   
+  label, 
+  input, 
+  textarea { 
+	width: 100%; 
+	padding: 12px; 
+	border-radius: 3px; 
+	border: 1px solid #ccc; 
+	box-sizing: border-box; 
+	font-size: 16px; 
+	margin-bottom: 10px; 
+  } 
+   
+  input[type="text"], 
+  input[type="email"] { 
+	height: 45px; 
+  } 
+   
+  textarea { 
+	height: 150px; 
+  } 
+   
+  button[type="submit"] { 
+	width: 100%; 
+	background-color:  #ff9900;
+	color: white; 
+	padding: 14px 20px; 
+	margin-top: 10px; 
+	border: none; 
+	border-radius: 3px; 
+	cursor: pointer; 
+  }  
+
+  button {
+    background-color: #000000; /* Button background color */
+    color: rgb(219, 219, 219); /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Add border radius */
+    text-decoration: none; /* Remove underline from links */
+}
+
+button:hover {
+    background-color: #000000; /* Darken background color on hover */
+}
+a {
+    color: #007bff; /* Change link text color */
+}
+
+a:hover {
+    color: #0056b3; /* Change link text color on hover */
+}
+
